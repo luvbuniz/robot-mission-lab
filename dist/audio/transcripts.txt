@@ -1,23 +1,26 @@
-Mission 1: Wake up your rover
-Your first mission is to wake up the rover without moving its wheels. Show the sensor a color, predict the message, and test your rule. Your robot only knows what the program tells it to do.
+INTRO
+Welcome, robot builders! Build a robot that carries a paper parcel and stops at a red line. Try it, write down what happens, and make one thing better.
 
-Mission 2: Motor checkout
-Your first drive should be short and controlled. Start with a low speed, keep a clear lane, and check that the stop works. Measure the distance instead of assuming that the speed number tells you how far the rover will go.
+LESSON-1
+Show your robot a color. What message will appear? Make a prediction, then try it. Keep the wheels still. Explain how your rule picked the message.
 
-Mission 3: Design a cargo cradle
-Today your rover becomes a delivery vehicle. Build a light cargo cradle and leave its wheels, sensors, and power switch clear. Test the same paper parcel before and after one design change. Let your evidence choose the better design.
+LESSON-2
+Make a short drive, then stop. Measure how far your robot moves. Try three runs with the same settings. Do the distances match? Write down what you notice.
 
-Mission 4: Crack the color code
-Can your rover recognize its delivery marker? Test red, white, and an unfamiliar surface with the wheels stopped. Keep the sensor height steady. Record every reading, then change one condition and investigate what happens.
+LESSON-3
+Build a holder for your paper parcel. Leave room for the wheels and sensor. Try it three times. Change one part of the holder, then test again.
 
-Mission 5: Code a delivery route
-A route is a sequence of choices. Plan the turns before you drive. In the simulator, a turn is exact. On the floor, your rover needs calibration. Measure where it stops, change one timing value, and test again.
+LESSON-4
+Can your robot tell red from white? Test the colors with the wheels still. Write every reading. Change one thing, such as the sensor height, and try again.
 
-Mission 6: Nail the delivery stop
-Now turn your color readings into a delivery decision. White allows one short movement. Red means stop, and an unknown reading means stop and check. Test slowly, measure where the rover stops, and keep the stop in place until a new trial begins.
+LESSON-5
+Plan your route with arrows. Drive, turn, then drive again. Test each part on the floor. Change one time setting and try again. Did your robot get closer?
 
-Mission 7: Plan the delivery mission
-Put your tested parts together. Define what a successful delivery means before the run. Keep the same starting conditions, record every attempt, and improve one thing at a time. A reliable delivery matters more than a fast one.
+LESSON-6
+White means move a little. Red means stop. If the color is unknown, stop and check. Try your rule slowly. Keep the robot stopped until you start a new test.
 
-Mission 8: Showcase with evidence
-Your final job is to explain the evidence. Show what your robot can do, how you tested it, and what still needs work. Give another team clear operating instructions. Engineers earn trust by making their results understandable and reproducible.
+LESSON-7
+Time for a delivery! Keep the parcel on, stop in the right place, and hit nothing. Try three runs. Write what happened each time, then choose one improvement.
+
+LESSON-8
+Show your robot and tell its story. What did you change? What did your tests show? Explain one thing that works well and one thing you still want to improve.

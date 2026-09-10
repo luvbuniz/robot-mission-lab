@@ -1,3 +1,7 @@
-# LEGO Coding Canvas recipes
+# Robot Mission Lab: coding steps
 
-Eight original lesson recipes for kit #45522. Start with LEGO’s getting-started materials and a teacher-checked wheeled base. These Markdown files describe block logic; they are not importable project files. Save and pretest the assembled projects on the actual kit before classroom use. No EV3, Robot Inventor or micro:bit programs are interchangeable with this hardware.
+These are written coding steps for LEGO Education set #45522. Coding Canvas is LEGO’s coding app. A coding block is a piece on the screen that gives an instruction. These pages are not files the app can run by itself.
+
+Before class, the teacher must use these steps to make a program with the current blocks, save it and test it on the real kit. Block names may differ from the words used here.
+
+Start with lesson 1. Each file gives written steps, word help and teacher checks. Use them with the matching interactive lesson and workbook page. The course uses a color sensor to read floor markers; it does not use that sensor to detect walls or people.

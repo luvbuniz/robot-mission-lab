@@ -1,19 +1,47 @@
-# Mission 8: Showcase with evidence
+# Module 8: Choose a build and show it
 
-LEGO Education #45522 · Coding Canvas word-block recipe
+Choose ONE attachment for the same checked robot base. Open worksheets/module-8.pdf for the measured building steps and test tables.
 
-This is a human-readable programming recipe, not an importable LEGO project. The teacher maps it to the current block palette, saves the project and verifies it on the actual kit before class.
+## Choice 1: Parcel delivery robot
 
-1. Freeze the tested mission 7 program and save a named copy
-2. Have another team follow start / stop / reset instructions
-3. Record three acceptance trials without changing the version
+Use lesson 6’s tested color-stop program without removing its limits.
 
-## Teacher checks
+Start stopped; set keepGoing to Yes. Repeat at most 20 times. Only while keepGoing is Yes, read the color: white means a slow 0.1-second move then Stop; any other reading means Stop and set keepGoing to No.
 
-Use only the intended team hardware. Verify low-speed direction, bounded duration, on-screen stop and hardware power-off. Test stationary sensing before movement. Red and unknown must end the approach trial. A grid simulation does not validate the physical build.
+Stop and end after the repeats. Red means delivery; unknown means check the setup.
 
-## Build resources
+## Choice 2: Drawing robot
 
-Official #45522 instructions: https://www.lego.com/service/buildinginstructions/45522
-Coding Canvas: https://code.legoeducation.com/
-Teacher Portal: https://teach.legoeducation.com/
+Start with movement stopped. Use a checked low speed, such as 20 percent.
+
+Drive forward for 0.8 seconds, then stop and end. Shorten the time if the paper is too small.
+
+No automatic repeat. Lift the marker and return the robot by hand between runs with the power off.
+
+## Choice 3: Paper sweeper
+
+Start stopped and set the checked low speed.
+
+Drive forward for 0.8 seconds, then stop and end. Set the collection box using the distance measured in lesson 2.
+
+Do not add continuous driving. Return the paper pieces and robot to their marks between tests.
+
+## Choice 4: Ball-pushing robot
+
+Start stopped and use the checked low speed.
+
+Drive forward for 0.8 seconds, then stop and end. Put the goal within the tested travel distance.
+
+No automatic repeat. Return the robot and ball to their marks with the power off.
+
+## Choice 5: Rescue carrier
+
+Start stopped and use the checked low speed.
+
+Drive straight for 0.8 seconds, then stop and end. Do not add turns or reversing for this first sled build.
+
+Return the robot and sled to the start with the power off. Do not move a real person, animal or heavy object.
+
+## Before driving
+
+Ask the teacher to check the attachment, free wheel movement, sensor view and Stop controls. Turn the power off before changing parts. Try three runs, change one thing and compare. Save the code and explain what happened.

@@ -1,0 +1,443 @@
+{
+  "base_source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6640383.pdf#page=24",
+  "base_note": "Official starting model: C103, pages 24-31 in LEGO instruction book 6640383 for set #45522. A teacher must check any changes for floor sensing and attachments on the real kit.",
+  "modules": [
+    {
+      "title": "Build a color-test station",
+      "make": "A wheeled robot base and a set of cards that make the screen respond.",
+      "materials": [
+        "LEGO set #45522 and its official instructions",
+        "Connected computer or tablet",
+        "Red, white and blue paper: one 8 cm square of each",
+        "Two equal-height firm supports, checked by the teacher"
+      ],
+      "steps": [
+        "Open LEGO’s official instruction book. Find model C103 on pages 24-31. Build it with your teacher as a starting model, or use the wheeled base your teacher has already checked. The pictures in this course are project ideas, not exact LEGO assembly steps.",
+        "Ask the teacher to prepare a secure downward-facing color-sensor mount and clear attachment points for later lessons. Keep both wheel paths and all Stop controls clear. This is a change to the starting model and needs a real-kit test.",
+        "Set the robot on the two firm supports under fixed parts of its frame. Check that it cannot rock or slide. Both wheels must hang clear of the table. Do not support it by the sensor or an axle (a rod a wheel turns on).",
+        "Cut three paper squares, each 8 cm by 8 cm. Use red, white and blue. Put them beside the robot. Keep the same side of each paper facing the sensor.",
+        "Connect only your team’s motor and sensor in Coding Canvas. Point to the screen Stop control and the robot’s power button. Ask the teacher to check the connection.",
+        "Slide white paper below the sensor without touching it. Adjust the paper position until the sensor reads white. Mark that place with tape so every card goes in the same spot.",
+        "Build the color-to-message program below. Keep all movement stopped. Test one card at a time, then put it back in the marked spot.",
+        "Record all three results. Change one screen message to your team’s words and test again. Leave the sensor mount and base ready for lesson 2."
+      ],
+      "code": [
+        "Start with all movement stopped.",
+        "Repeat 10 times: read the color. White shows READY; red shows DELIVERY; anything else shows CHECK. Wait 0.2 seconds before the next check.",
+        "Stop all movement and end. There are no driving steps in this program."
+      ],
+      "checks": [
+        "The base is steady and both wheels stay still.",
+        "Each color produces the message in the rule.",
+        "Everyone can point to the sensor and the Stop controls."
+      ],
+      "columns": [
+        "Card color",
+        "Expected message",
+        "Actual message",
+        "Wheels still?"
+      ],
+      "question": "How does the color make the screen message change?"
+    },
+    {
+      "title": "Build a measured driving lane",
+      "make": "A short, clear test lane for measuring the robot’s travel.",
+      "materials": [
+        "Checked wheeled base and connected device",
+        "Ruler or measuring tape",
+        "Removable floor tape",
+        "Paper and pencil"
+      ],
+      "steps": [
+        "Choose a flat floor space with the teacher. Keep it away from stairs and table edges. Make the lane at least twice as wide as the robot.",
+        "Mark a start line across the lane. Put the ruler beside the lane, with zero at the start line. Keep the ruler out of the wheel path.",
+        "Add a small tape mark on the side of the robot, above its main wheel axle. Use this same mark to measure every run. An axle is the rod a wheel turns on.",
+        "With the power off, turn each wheel gently by hand. Remove anything rubbing a wheel. Check that the sensor mount stays clear of the floor.",
+        "Raise the wheels on firm supports. Try the short program below. If the wheels would send the robot backward, stop and ask the teacher to correct the motor direction.",
+        "Place the robot’s measuring mark over the start line. Clear the lane. With the teacher’s approval, run the program and wait until the wheels stop.",
+        "Measure from the start line to the same mark on the stopped robot. Write the distance in centimeters (cm). Return it to the start with the power off.",
+        "Repeat three times with the same code. Then ask the teacher to help test the Stop control during another short run. Save the lane and measuring mark."
+      ],
+      "code": [
+        "Start with movement stopped. Set low speed, such as 20 percent.",
+        "Move forward for 0.8 seconds, then stop.",
+        "End the program. Do not use a forever-repeat block."
+      ],
+      "checks": [
+        "The robot stops by itself after each short drive.",
+        "All three distances are recorded from the same mark.",
+        "The teacher checks the screen Stop control and power-off method."
+      ],
+      "columns": [
+        "Run",
+        "Speed setting",
+        "Distance (cm)",
+        "Stopped by itself?"
+      ],
+      "question": "Why might three runs travel slightly different distances?"
+    },
+    {
+      "title": "Build two parcel holders",
+      "make": "A low tray and an open-sided holder for the same paper parcel.",
+      "materials": [
+        "Checked base with teacher-approved fixed mounting points",
+        "Thin cardboard: two rectangles about 12 cm by 8 cm",
+        "Paper parcel about 4 cm by 3 cm by 2 cm",
+        "Ruler, pencil, scissors and removable tape"
+      ],
+      "steps": [
+        "Fold a small paper parcel about 4 cm long, 3 cm wide and 2 cm high. Tape it closed. Use this same light parcel for every test. Do not add coins or other weights.",
+        "Measure the clear space your teacher chose on the base. A 12 by 8 cm card is a starting size. Make it smaller if it would hang over a wheel or cover a control.",
+        "For holder A, draw a line 1 cm inside each edge of one rectangle. Cut out the four corner squares. Fold the four sides up along the lines and tape the corners. You have made a low tray.",
+        "For holder B, use the second rectangle. Fold its two long edges up by 1 cm and keep both short ends open. Put two folded paper stops near the short ends to stop the parcel sliding out.",
+        "Turn the robot off. Ask the teacher to show the mounting points. Fix holder A to those fixed points with the approved reusable connectors or paper tape tabs. Do not tape over the motor, sensor or buttons.",
+        "Put the parcel in holder A. Raise the wheels and check for rubbing. Try the same short drive from lesson 2 three times and record whether the parcel stays on.",
+        "Turn the power off. Swap to holder B. Use the same parcel, code, floor and start line for three more runs.",
+        "Choose the better holder using your notes. Change only one feature if neither works well. Keep the selected holder for later lessons."
+      ],
+      "code": [
+        "Use lesson 2’s checked program.",
+        "Low speed, 0.8 seconds forward, then stop and end.",
+        "Keep the same settings for both holders."
+      ],
+      "checks": [
+        "The holder clears the wheels, sensor and controls.",
+        "The parcel stays on in at least two of three runs.",
+        "The team records tests for both holders before choosing."
+      ],
+      "columns": [
+        "Holder / run",
+        "Parcel stayed on?",
+        "Any rubbing?",
+        "What happened?"
+      ],
+      "question": "Which holder worked better? Use a result from your notes."
+    },
+    {
+      "title": "Build a color-sensor test board",
+      "make": "A board for comparing color readings at a fixed position.",
+      "materials": [
+        "Checked base with its downward-facing sensor",
+        "Thin card about 30 cm by 12 cm",
+        "Red, white and blue paper squares, each 8 cm wide",
+        "Removable tape, ruler and pencil"
+      ],
+      "steps": [
+        "Tape the three paper squares side by side on the card: red, white and blue. Leave a small gap between them. Keep the paper flat, without shiny tape over the reading area.",
+        "Keep the robot’s wheels raised on firm supports. Slide the board under the sensor. Keep every motor stopped for this lesson.",
+        "Mark the board position that puts the center of red under the sensor. Do the same for white and blue. These marks help you line up each test.",
+        "Measure the gap from the sensor face to the board. Ask the teacher to check it against LEGO’s guidance. Record the gap; do not assume one height works for every build.",
+        "Use the program below to show the color name. Test red three times, white three times and blue three times. Move the board away and back to its mark between readings.",
+        "Write down all nine readings, even wrong or unknown ones. Unknown means the sensor cannot name the color.",
+        "Change only one thing, such as room lighting or the sensor gap. Repeat all nine readings. Keep the paper and its position the same.",
+        "Choose the setup that gives the most reliable red and white readings. Record the gap and lighting. Keep the same paper for the stopping lesson."
+      ],
+      "code": [
+        "Start with all movement stopped.",
+        "Repeat 10 times: read the color, show its name, and wait 0.2 seconds.",
+        "Stop all movement and end."
+      ],
+      "checks": [
+        "Nine readings are recorded for each setup.",
+        "Only one thing changes in the comparison.",
+        "The team can explain the chosen red-and-white setup."
+      ],
+      "columns": [
+        "Paper / setup",
+        "Reading 1",
+        "Reading 2",
+        "Reading 3"
+      ],
+      "question": "What did you change, and did it help the robot read colors?"
+    },
+    {
+      "title": "Build a route with arrow cards",
+      "make": "An L-shaped route made from short drives and a turn.",
+      "materials": [
+        "Checked base, ruler and removable floor tape",
+        "Six paper cards about 8 cm square",
+        "Pencil or marker",
+        "The short-drive code from lesson 2"
+      ],
+      "steps": [
+        "Draw forward arrows on four cards, a right-turn arrow on one card and STOP on the last card. These cards are a plan; they do not control the robot by themselves.",
+        "Mark a short straight lane and a wide delivery space on the floor. Leave enough clear room for a turn. Keep arrow cards beside the lane, away from the wheels.",
+        "Arrange the cards: drive forward, turn right, drive forward, stop. Point to the direction the robot will face after each step.",
+        "Test the first short drive on its own. Adjust its time until it reaches the turning area. Calibrate means test and adjust a setting.",
+        "With the teacher, test a short, slow right turn by itself. Stop after the turn. Change its time a little if it turns too far or not far enough.",
+        "Test the second short drive. Join the three checked parts, with a Stop after each one. Keep the first complete tests to 3 seconds of movement or less.",
+        "Run the route three times from the same mark and direction. Record where the robot stops each time. Keep people and objects out of the lane.",
+        "Change one time setting and try another set of runs. Save the code and draw the final route."
+      ],
+      "code": [
+        "Start stopped. Drive slowly for the tested first time, then stop.",
+        "Turn right slowly for the tested turn time, then stop.",
+        "Drive slowly for the tested second time, then stop and end."
+      ],
+      "checks": [
+        "The program stops after each part and at the end.",
+        "The robot finishes inside the space in at least two of three runs.",
+        "The team records the times and layout so it can try again."
+      ],
+      "columns": [
+        "Run",
+        "First / turn / last times",
+        "Inside space?",
+        "What to adjust?"
+      ],
+      "question": "Which time setting did you change, and what happened?"
+    },
+    {
+      "title": "Build a red-line stopping station",
+      "make": "A white approach lane with a broad red finish strip.",
+      "materials": [
+        "Checked base with downward-facing color sensor",
+        "The tested white and red paper from lesson 4",
+        "Removable tape and ruler",
+        "Connected device with lesson 6 code"
+      ],
+      "steps": [
+        "Make a flat white lane at least twice as wide as the robot. Tape its edges down so the wheels cannot catch them. Keep tape away from the sensor’s reading path.",
+        "Place a red strip across the full lane, starting about 10 cm deep in the direction of travel. This is a starting test size, not a guaranteed stopping distance.",
+        "Leave a large clear area beyond the red strip. Mark a start close enough that a short drive can reach it. Ask the teacher to check the whole layout.",
+        "With the wheels still, show the sensor white, red and another color. Fix wrong readings before driving. Keep the sensor gap from lesson 4.",
+        "Build the program below. A variable is a value the program remembers. keepGoing remembers whether this test may continue.",
+        "At low speed, try one approach to red. Keep someone ready at Stop. When the program ends, measure how far the sensor moved past the start of the red strip.",
+        "Repeat three approaches. Separately test an unknown or other-color reading with wheels raised. After a red or unknown reading, show white again: the same test must stay stopped.",
+        "If it misses red, stop. Try a wider strip or a lower speed, one change at a time. Do not remove the 20-check limit or the Stop steps."
+      ],
+      "code": [
+        "Start stopped. Set keepGoing to Yes.",
+        "Repeat at most 20 times. Only if keepGoing is Yes: read the color.",
+        "If white: move slowly for 0.1 seconds, then stop. Otherwise: stop and set keepGoing to No.",
+        "After the repeats, stop and end. A person must start a new test."
+      ],
+      "checks": [
+        "Three approach runs stop when red is read.",
+        "Red and unknown both end the test; white cannot restart it.",
+        "The program ends after no more than 20 checks."
+      ],
+      "columns": [
+        "Run",
+        "Saw red?",
+        "Distance past line (cm)",
+        "Stayed stopped?"
+      ],
+      "question": "What could make the robot miss a narrow red strip?"
+    },
+    {
+      "title": "Build the complete delivery course",
+      "make": "A robot that carries a parcel into a marked delivery space.",
+      "materials": [
+        "Checked base and the selected holder from lesson 3",
+        "The same light paper parcel",
+        "White lane and red strip from lesson 6",
+        "Removable tape, ruler and saved code"
+      ],
+      "steps": [
+        "Turn the robot off. Attach the tested holder to the approved mounting points. Put the paper parcel low in the center. Check that no part touches a wheel or covers the sensor.",
+        "Keep the white approach and red strip from lesson 6. Tape a delivery rectangle around the stopping area, large enough for the whole robot.",
+        "Keep the lane clear. For this test, use a short straight approach to the red strip. Add a longer route only after this works.",
+        "Use the checked color-stop program from lesson 6. Keep its short moves, Stop steps and maximum of 20 checks.",
+        "Write three rules before driving: parcel stays on; robot stops inside the delivery space; robot hits nothing. A run passes only when all three happen.",
+        "Run the delivery three times from the same start. Write Yes or No for each rule after each run. Keep the failed runs in the notes.",
+        "Choose one change, such as a lower holder wall or wider red strip. Keep the other parts and code the same. Try another set of three runs.",
+        "Save the best-tested setup. Keep the base ready for the final build choice."
+      ],
+      "code": [
+        "Use the complete lesson 6 color-stop program.",
+        "White permits one 0.1-second slow move and then Stop. Red or any other reading ends the test.",
+        "Stop and end after at most 20 checks. Never restart within the same test."
+      ],
+      "checks": [
+        "At least two of three runs meet all three rules.",
+        "The robot still passes the red-and-unknown stop checks.",
+        "The team can name one change and the result it produced."
+      ],
+      "columns": [
+        "Run",
+        "Parcel stayed on?",
+        "Inside space?",
+        "Hit nothing?"
+      ],
+      "question": "What improved when you changed one part of the delivery?"
+    }
+  ],
+  "choices": [
+    {
+      "title": "Parcel delivery robot",
+      "make": "Carry a paper parcel to a red-line delivery space.",
+      "materials": [
+        "The shared checked base",
+        "Thin card about 12 by 8 cm",
+        "One paper parcel about 4 by 3 by 2 cm",
+        "Ruler, scissors and removable tape"
+      ],
+      "steps": [
+        "Measure the clear mounting space on the base. Cut the card to fit it. Keep at least 1 cm of room between the attachment and any wheel. Make it smaller if needed.",
+        "Draw a fold line 1 cm inside each edge. Cut out the four corner squares. Fold all four walls up and tape the corners to make a shallow tray.",
+        "Fold a light paper parcel. Place it in the center of the tray. Add a small folded-paper stop at each end if it slides. Do not add heavy contents.",
+        "Turn the robot off. Use the teacher-approved mounting points and removable connectors to hold the tray flat. Keep buttons and the sensor clear.",
+        "Raise the wheels and check for rubbing. Then place the robot on the white lane from lesson 6. Keep the broad red strip and empty space beyond it.",
+        "Run the code below three times. If the parcel falls, change one tray feature and repeat. Unload the parcel by hand only after the robot has stopped."
+      ],
+      "code": [
+        "Use lesson 6’s tested color-stop program without removing its limits.",
+        "Start stopped; set keepGoing to Yes. Repeat at most 20 times. Only while keepGoing is Yes, read the color: white means a slow 0.1-second move then Stop; any other reading means Stop and set keepGoing to No.",
+        "Stop and end after the repeats. Red means delivery; unknown means check the setup."
+      ],
+      "checks": [
+        "The parcel stays in the tray.",
+        "The whole robot stops inside the delivery space.",
+        "The robot hits no object or person."
+      ],
+      "columns": [
+        "Run",
+        "Parcel stayed on?",
+        "Inside space?",
+        "Hit nothing?"
+      ],
+      "question": "Which tray feature helped the parcel stay on?"
+    },
+    {
+      "title": "Drawing robot",
+      "make": "Draw a short line on a protected paper surface.",
+      "materials": [
+        "The shared checked base",
+        "One washable felt-tip marker",
+        "A card strip about 12 by 3 cm and removable tape",
+        "A large sheet of paper over a protective mat"
+      ],
+      "steps": [
+        "Cover a large floor area with a protective mat and paper. Tape the paper edges flat. Ask the teacher to approve the marker and surface.",
+        "Wrap the card strip loosely around the marker to make a sleeve. Tape the card to itself. The marker must slide up and down inside it.",
+        "Turn the robot off. Fix the sleeve upright at a teacher-approved point behind the wheels. Keep it away from the sensor and moving parts.",
+        "Slide the uncapped marker down until its tip just touches the paper. Secure the marker in the sleeve with a small removable tape tab. It must not lift the wheels off the paper.",
+        "Raise the wheels and check the short program. Put the robot back on the protected paper with enough space for the whole run.",
+        "Draw three short lines. Stop and turn off the robot before lifting or adjusting the marker. If a line has gaps, lower the tip a little; if the robot struggles, raise it."
+      ],
+      "code": [
+        "Start with movement stopped. Use a checked low speed, such as 20 percent.",
+        "Drive forward for 0.8 seconds, then stop and end. Shorten the time if the paper is too small.",
+        "No automatic repeat. Lift the marker and return the robot by hand between runs with the power off."
+      ],
+      "checks": [
+        "A visible line is drawn on the paper.",
+        "The marker stays in its holder and all marks stay on protected paper.",
+        "The robot stops by itself at the programmed time."
+      ],
+      "columns": [
+        "Run",
+        "Visible line?",
+        "Stayed on paper?",
+        "Stopped by itself?"
+      ],
+      "question": "How did marker height change the line or the robot’s movement?"
+    },
+    {
+      "title": "Paper sweeper",
+      "make": "Push three light paper pieces into a collection area.",
+      "materials": [
+        "The shared checked base",
+        "A thin card strip about 12 by 5 cm",
+        "Three tissue-paper squares, each about 2 cm wide",
+        "Removable tape, ruler and scissors"
+      ],
+      "steps": [
+        "Cut a card strip as wide as the robot, but no wider than the clear test lane. Fold its top 2 cm backward to make a mounting edge.",
+        "Cut short vertical slits about 1 cm apart into the lower 2 cm. These make flexible paper bristles. Round sharp card corners with scissors.",
+        "Turn the robot off. Attach the folded top edge to approved fixed front mounting points. The flexible ends should just brush the floor without lifting any wheel.",
+        "Use a clear floor lane. Mark a collection box farther along it. Place three tissue squares in a row across the starting sweep area. Keep them away from wheel paths.",
+        "Try the short program below. Check that the paper bristles can bend. Stop at once if a piece catches in a wheel; turn the power off before removing it.",
+        "Count the pieces that reach the box. Repeat three times with the same starting positions. Adjust the bristle height once and compare."
+      ],
+      "code": [
+        "Start stopped and set the checked low speed.",
+        "Drive forward for 0.8 seconds, then stop and end. Set the collection box using the distance measured in lesson 2.",
+        "Do not add continuous driving. Return the paper pieces and robot to their marks between tests."
+      ],
+      "checks": [
+        "At least two of the three tissue squares reach the box.",
+        "No paper gets caught in the wheels.",
+        "The robot stops by itself and touches no object except the tissue squares."
+      ],
+      "columns": [
+        "Run",
+        "Pieces in box (0-3)",
+        "Wheels clear?",
+        "Stopped by itself?"
+      ],
+      "question": "Did shorter or longer bristles move the paper better?"
+    },
+    {
+      "title": "Ball-pushing robot",
+      "make": "Guide one light paper ball toward a goal.",
+      "materials": [
+        "The shared checked base",
+        "Thin card about 14 by 5 cm",
+        "One crumpled paper ball about 3 cm wide",
+        "Removable tape and ruler"
+      ],
+      "steps": [
+        "Fold the card lengthwise so it has a 3 cm upright wall and a 2 cm mounting flap. Fold it gently across the middle to make a shallow V.",
+        "Make one light paper ball about 3 cm wide. Put it in the V opening. Leave enough room for it to roll freely; do not make a tight clamp.",
+        "Turn the robot off. Attach the two mounting flaps to teacher-approved fixed front points. Keep the V open at the front. Leave the wheels clear and keep the card just above the floor.",
+        "Keep the sensor clear even though this task uses a timed drive. Mark a wide goal across a short straight lane. Place the ball at the same start mark each time.",
+        "Use the short program below. The robot pushes the ball; it does not grip it. Stop if the ball rolls toward people or outside the clear test area.",
+        "Repeat three times. If the ball escapes sideways, adjust the V angle a little. Keep the same ball and code while comparing."
+      ],
+      "code": [
+        "Start stopped and use the checked low speed.",
+        "Drive forward for 0.8 seconds, then stop and end. Put the goal within the tested travel distance.",
+        "No automatic repeat. Return the robot and ball to their marks with the power off."
+      ],
+      "checks": [
+        "The ball crosses the marked goal line.",
+        "The guide stays attached and the wheels turn freely.",
+        "The robot stops by itself and touches only the paper ball."
+      ],
+      "columns": [
+        "Run",
+        "Ball crossed goal?",
+        "Guide stayed on?",
+        "Stopped by itself?"
+      ],
+      "question": "Which V angle kept the ball in front of the robot?"
+    },
+    {
+      "title": "Rescue carrier",
+      "make": "Tow a light paper figure on a small rescue sled.",
+      "materials": [
+        "The shared checked base",
+        "Thin card: one 12 by 6 cm piece and one 12 by 2 cm strip",
+        "A flat paper person, two paper strips for bands, removable tape and scissors",
+        "Ruler and a clear straight lane"
+      ],
+      "steps": [
+        "Use the 12 by 6 cm card as a sled. Fold each long edge up by 1 cm. Curl the front edge slightly upward so it does not catch on the floor.",
+        "Draw and cut out a small paper person. Lay it flat on the sled. Add two loose paper bands across the sled and tape their ends to the sides to hold the figure in place.",
+        "Use the 12 by 2 cm card strip as a wide tow bar. Tape one end flat to the sled’s front. Make a small folded tab at the other end.",
+        "Before attaching it to the robot, pull the sled gently by hand using its wide tow bar. It should slide without catching. Keep it light and use only a straight route for this task.",
+        "Turn the robot off. Ask the teacher to connect the tow-bar tab to a fixed rear mounting point. Keep the whole strip centered behind the robot and away from the wheels. Do not use loose string.",
+        "Run the short program below three times. If the sled catches or a wheel struggles, stop. Smooth the sled edge or shorten the route, then test again."
+      ],
+      "code": [
+        "Start stopped and use the checked low speed.",
+        "Drive straight for 0.8 seconds, then stop and end. Do not add turns or reversing for this first sled build.",
+        "Return the robot and sled to the start with the power off. Do not move a real person, animal or heavy object."
+      ],
+      "checks": [
+        "The paper person stays on the sled.",
+        "The tow bar stays attached and away from the wheels.",
+        "The robot moves the sled and stops by itself."
+      ],
+      "columns": [
+        "Run",
+        "Person stayed on?",
+        "Tow bar clear?",
+        "Moved and stopped?"
+      ],
+      "question": "What helped the sled slide without catching?"
+    }
+  ]
+}

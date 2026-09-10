@@ -1,47 +1,85 @@
 # Robot Mission Lab
 
-An independent middle-school robotics teaching draft by **Amy Sullivan**. Build a delivery rover, investigate its behavior and defend design choices with evidence.
+**Build it. Code it. Make it yours.**
 
-**Current kit:** LEGO Education Computer Science & AI 6–8, #45522 (2026). Eight missions, sixteen 45-minute sessions, four rotating team roles.
+An independent middle-school robotics course by **Amy Sullivan**. Students build a wheeled robot, learn to control it, test their ideas and choose a new job for the same base.
 
-## Explore
+**[Open the interactive course](https://robotics-mission-lab-amy.luvbuniz.chatgpt.site)** · [Student workbook](dist/student-workbook.pdf) · [Teacher guide](dist/teacher-guide.pdf) · [Build worksheets](dist/worksheets/all-modules.pdf)
 
-- 56 interactive slides with prediction, practice, feedback and reflection.
-- Three route puzzles with step-through traces and downloadable trial records.
-- LEGO-style mission artwork, narration and transcripts.
-- Eight Coding Canvas block recipes, student workbook and teacher guide.
-- Dated pilot and classroom cost sheets at the back of both PDFs.
+![A brick-built robot on a colorful mission course](dist/rover.png)
 
-Open `dist/index.html` locally or serve `dist` with a static web host. No Articulate or Vercel account is needed. Local server: `python -m http.server 8899 --directory dist`.
+**Grades 6–8 · Eight modules · Sixteen 45-minute classes · Teams of four**
 
-## Interview walkthrough
+The planned kit is **LEGO Education Computer Science & AI 6–8, #45522**. The course combines a custom interactive website with physical building, written coding steps and printable materials. It runs in a browser without a student account, Articulate subscription or app installation.
 
-1. Explain the learner and performance goal: a tested, documented delivery.
-2. Open Mission 6; test white, red and unknown color decisions.
-3. Show the build recipe and matching engineering log.
-4. Revise a failed simulator route and export the trial record.
-5. Show assessment, accessibility choices and the kit-cost appendix.
+## What to explore
 
-## Teaching and validation
+- **56 interactive slides:** seven per module, with predictions, practice, feedback, building checklists and reflection.
+- **Three simulator challenges:** arrange instructions, watch each step, revise a route and download test notes.
+- **Eight build worksheets:** materials, measured attachment plans, numbered steps, written program instructions and test tables.
+- **Five final builds on one base:** parcel delivery, drawing robot, paper sweeper, ball pusher or a sled carrying a paper rescue figure.
+- **Plain-English support:** new words explained in lessons and a glossary in the student and teacher PDFs.
+- **Audio and transcripts:** nine short recordings using Amy’s own locally synthesized voice.
+- **Teacher materials:** lesson guidance, sample answers, a scoring guide and dated kit cost sheets at the back of both main PDFs.
 
-This is a portfolio teaching draft. Recipes are human-readable block instructions, **not importable LEGO projects**. Before class, a teacher must map them to the current Coding Canvas blocks, save projects, prepare a checked wheeled base using LEGO’s build resources and run actual-kit trials. No physical-robot or classroom testing is claimed.
+## A four-minute portfolio walkthrough
 
-The separate grid puzzle has a virtual adjacent-cell obstacle check. It does not emulate LEGO hardware. The physical course uses a color marker, not a distance sensor. Knowledge checks do not certify a physical build. Notes and trials stay in the open page and clear on refresh unless downloaded. No student account or server storage is used.
+1. **Course:** choose Mission 6 and explore how white, red and unknown color readings lead to different actions.
+2. **Build:** open its worksheet and connect the learning goal to the actual steps and test table.
+3. **Mission simulator:** run a route, use the feedback to change it and download the test notes.
+4. **Mission 8:** compare the five final build choices and explain how students choose, test and improve.
+5. **Teacher desk:** show the teaching support, word help, scoring guide and cost sheet.
 
-Automated checks cover simulator solutions, collisions, boundaries, latched stops, state preservation, activity grading and color decisions. PDFs are rendered and inspected. Browser interaction and physical-kit testing remain separate steps.
+## The eight modules
 
-## Credits
+| Module | What students do | Build worksheet |
+| --- | --- | --- |
+| 1. Wake up your rover | Connect a color reading to a screen message | [Color-test station](dist/worksheets/module-1.pdf) |
+| 2. Make a short drive | Measure movement and make the robot stop | [Measured driving lane](dist/worksheets/module-2.pdf) |
+| 3. Build a parcel holder | Compare two holders using the same parcel | [Two parcel holders](dist/worksheets/module-3.pdf) |
+| 4. Help your robot read colors | Compare readings and change one test condition | [Color-sensor board](dist/worksheets/module-4.pdf) |
+| 5. Plan the delivery route | Put short drives and a turn in order | [Arrow-card route](dist/worksheets/module-5.pdf) |
+| 6. Stop at the red line | Use a color reading to choose move or stop | [Red-line station](dist/worksheets/module-6.pdf) |
+| 7. Make the delivery | Test the complete robot against three rules | [Delivery course](dist/worksheets/module-7.pdf) |
+| 8. Choose a build and show it | Choose one new job, improve it and explain the results | [Five build choices](dist/worksheets/module-8.pdf) |
 
-Course: Amy Sullivan. Audio uses Amy’s own locally synthesized voice; raw clone samples and profile files are not included. Artwork uses built-in image generation; prompts are in `source/visual-prompts.md`. These imaginative rover/arena scenes are not exact #45522 inventory or assembly instructions. Historical `source/blender/` models are earlier prototypes, not the LEGO build.
+Modules 1–7 each have a two-page build worksheet. Module 8 has a two-page choice plan and two pages per build. Each team chooses **one** build; teachers can print only the pages that team needs. The full workbook retains the illustrated lesson pages, word help and reflection activities.
 
-LEGO and related marks belong to the LEGO Group. This independent course is not endorsed by LEGO. Official kit, build, software and pricing sources are linked in the Teacher Desk. The original Rise course remains at https://luvbuniz.github.io/robotics/ . This custom site alone does not establish current Rise or Storyline authoring proficiency.
+## Teaching readiness
+
+This is a portfolio teaching draft. The worksheet attachments and coding recipes still need real-kit and classroom trials. Before teaching, use LEGO’s official build resources to prepare the shared base, check the sensor mount and attachment points, and make and test the programs in Coding Canvas. The written recipes are guides for making block programs, not importable LEGO project files.
+
+The simulator checks the next square for a wall. The physical course uses a floor-color sensor. The screen activity does not emulate the kit or prove that a real robot will work. Student notes stay in the open page and clear on refresh unless downloaded; there is no student account or server storage.
+
+Automated checks cover simulator solutions, collisions, movement limits, stop behavior, activity grading and color decisions. PDF pages and local download links have been checked. Physical-kit trials and classroom testing have not been completed.
+
+## Run locally
+
+Serve the `dist` folder with any static web server. For example, from the repository root:
+
+```text
+python -m http.server 8899 --directory dist
+```
+
+Then open `http://localhost:8899/`. Run `npm test` with a current Node.js installation to check the existing simulator and activity tests.
 
 ## Files
 
-- `dist/course.js`: curriculum, narration scripts and budgets.
-- `dist/slides-data.js`: eight interactive decks.
-- `dist/code/`: eight Markdown block recipes.
-- `dist/student-workbook.pdf`, `dist/teacher-guide.pdf`: printable materials.
-- `tests/`: run `npm test` with Node.js 24 or newer.
+| Location | Contents |
+| --- | --- |
+| `dist/` | Complete browser course and public media |
+| `dist/course.js` | Curriculum, narration scripts and cost data |
+| `dist/slides-data.js` | Eight interactive lesson decks |
+| `dist/code/` | Eight written coding guides |
+| `dist/worksheets/` | Module build worksheets and combined packet |
+| `dist/audio/` | Finished narration and matching transcripts |
+| `source/` | Image prompts, original worksheet plans and earlier Blender prototypes |
+| `tests/` | Simulator and activity checks |
 
-Prices are dated planning figures; recheck before ordering. No purchase has been made.
+## Credits and sources
+
+Course design and writing: **Amy Sullivan**. Narration uses Amy’s “My Voice but chipper” voice profile; raw voice samples and clone-profile files are not included. Artwork was generated for this course; the prompts are retained in `source/`. Images show project ideas, not exact kit inventories or verified brick-by-brick instructions. The older Blender models are earlier prototypes.
+
+LEGO and related marks belong to the LEGO Group. **Robot Mission Lab is an independent project, not an official LEGO course and not endorsed by the LEGO Group.**
+
+Official kit, building, coding and price references are linked in the Teacher Desk. Cost sheets contain dated US planning figures and should be checked before ordering. The [original Rise course](https://luvbuniz.github.io/robotics/) remains separate; this version demonstrates a custom web learning experience.

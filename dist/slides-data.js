@@ -2,262 +2,262 @@ const LESSON_SLIDES = [
   {
     "explore": [
       [
-        "Input",
-        "The sensor reports a color."
+        "Input: information in",
+        "The color reading is the input. It tells the program which color the sensor sees."
       ],
       [
-        "Rule",
-        "The program maps white to READY, red to DELIVERY and other readings to CHECK."
+        "Rule: what to do",
+        "A rule links a color to a message: white shows READY, red shows DELIVERY, and anything else shows CHECK."
       ],
       [
-        "Output",
-        "A screen message changes while wheels remain stationary."
+        "Output: what comes out",
+        "The screen message is the output. The wheels stay still."
       ]
     ],
     "prediction": {
-      "q": "The sensor reports red in mission 1. What should happen?",
+      "q": "The sensor reads red. What should happen?",
       "options": [
-        "The rover drives forward.",
-        "DELIVERY appears; wheels stay still.",
-        "The sensor measures wall distance."
+        "The robot drives forward.",
+        "DELIVERY appears. The wheels stay still.",
+        "The sensor measures how far away a wall is."
       ],
       "correct": 1,
       "feedback": [
-        "There are no movement blocks in this mission.",
-        "Correct. The rule changes a message only.",
-        "This sensor classifies color; it is not a distance sensor."
+        "This lesson has no steps that move the wheels.",
+        "Yes. Red changes the message to DELIVERY.",
+        "This sensor reads colors. It does not measure wall distance."
       ]
     },
     "practice": {
       "type": "order",
-      "q": "Order the stationary response.",
+      "q": "Put these steps in order. Use the arrows to move them.",
       "items": [
-        "Show DELIVERY",
-        "Present the red sample",
-        "Apply the color-to-message rule"
+        "Show DELIVERY on the screen",
+        "Show red paper to the sensor",
+        "Use the rule for red"
       ],
       "correct": [
         1,
         2,
         0
       ],
-      "why": "The sample provides input; the rule selects the output."
+      "why": "First show the paper. The program uses its rule, then shows the message."
     },
     "exit": {
-      "q": "What would make this rover choose an action autonomously?",
+      "q": "How can the robot choose a message without a person choosing it each time?",
       "options": [
-        "Painting the chassis",
-        "A person choosing every turn",
-        "A sensor reading connected to a programmed decision"
+        "Paint the robot.",
+        "Ask someone to press a different button for each color.",
+        "Use the color reading and a rule in the program."
       ],
       "correct": 2,
       "feedback": [
-        "Appearance does not create an autonomous decision.",
-        "That is operator control. It can still be a robot.",
-        "Correct. Environmental input and a decision rule enable autonomous responses."
+        "Paint changes its look, not its instructions.",
+        "Then the person is choosing the message.",
+        "Yes. The program uses the color reading to choose."
       ]
     }
   },
   {
     "explore": [
       [
-        "Motor command",
-        "20 percent is a command, not 20 centimetres per second."
+        "Speed setting",
+        "20 percent is a low speed setting. It does not mean the robot moves 20 centimeters each second. Measure the distance with a ruler."
       ],
       [
-        "Duration",
-        "800 milliseconds is 0.8 seconds. A bounded drive stops after the programmed time."
+        "Bounded: a set limit",
+        "A bounded run stops after a set time or number of steps. Start with a drive lasting 0.8 seconds, then stop."
       ],
       [
-        "Variation",
-        "Floor friction, load, batteries and wheel alignment can change the measured travel."
+        "Why distances change",
+        "The floor, battery charge, parcel weight and wheel position can change how far the robot moves."
       ]
     ],
     "prediction": {
-      "q": "You repeat the same drive tomorrow. Must it travel exactly the same distance?",
+      "q": "You run the same code tomorrow. Must the robot travel exactly the same distance?",
       "options": [
-        "Yes, identical code guarantees identical travel.",
-        "No, physical conditions can change.",
-        "Only if the display is unchanged."
+        "Yes, the same code always gives the same distance.",
+        "No. The floor or battery charge may be different.",
+        "Only if the screen message stays the same."
       ],
       "correct": 1,
       "feedback": [
-        "Identical code does not eliminate differences in the physical system.",
-        "Correct. Measure repeated trials rather than assuming exact travel.",
-        "The display does not establish motor speed or traction."
+        "The same instructions can give different distances on a real floor.",
+        "Yes. Test and measure each run.",
+        "The message does not control how well the wheels grip the floor."
       ]
     },
     "practice": {
       "type": "number",
-      "q": "Three unchanged trials travel 18 cm, 20 cm and 22 cm. What is the mean distance?",
+      "q": "Three test runs travel 18 cm, 20 cm and 22 cm. What is the mean distance? Mean means average: add the distances, then divide by the number of runs.",
       "value": 20,
       "unit": "cm",
-      "hint": "Add the three distances, then divide by 3.",
-      "why": "(18 + 20 + 22) ÷ 3 = 20 cm. This describes these trials, not a guaranteed future distance."
+      "hint": "18 + 20 + 22 = 60. Divide 60 by 3.",
+      "why": "The average is 20 cm. The next run may travel a different distance."
     },
     "exit": {
-      "q": "To investigate the effect of speed, what should you keep fixed?",
+      "q": "You want to test a new speed. What should stay the same?",
       "options": [
-        "Duration, surface, load and start direction",
-        "Nothing; vary everything",
+        "Drive time, floor, parcel and starting direction",
+        "Nothing. Change everything.",
         "Only the team name"
       ],
       "correct": 0,
       "feedback": [
-        "Correct. Holding other factors steady makes the comparison more useful.",
-        "Changing everything hides which factor caused a difference.",
-        "Team names do not control the physical test conditions."
+        "Yes. Change only speed so you can see what it changes.",
+        "You would not know which change caused the result.",
+        "Keep the things that affect the drive the same."
       ]
     }
   },
   {
     "explore": [
       [
-        "Cargo cradle",
-        "Use light paper or cardboard and a removable attachment approved by the teacher."
+        "A parcel holder",
+        "Cargo means something a robot carries. A cargo cradle is a holder for it. Use light paper or cardboard to hold your paper parcel."
       ],
       [
-        "Clearance",
-        "Leave moving parts, sensor view and stop controls unobstructed."
+        "Leave room",
+        "Keep the holder away from the wheels. Do not cover the sensor or the controls used to stop the robot."
       ],
       [
-        "Fair comparison",
-        "Keep the parcel and drive program unchanged while revising one cradle feature."
+        "A fair test",
+        "Change one part of the holder. Keep the same parcel, start line and driving code. This helps you see what your change did."
       ]
     ],
     "prediction": {
-      "q": "Your parcel falls out. What is the best next test?",
+      "q": "Your parcel falls out. What should you try next?",
       "options": [
-        "Change the parcel, speed and cradle at once.",
-        "Increase speed to finish before it falls.",
-        "Change one cradle feature and repeat the same drive."
+        "Change the parcel, speed and holder at once.",
+        "Drive faster.",
+        "Change one part of the holder and repeat the same drive."
       ],
       "correct": 2,
       "feedback": [
-        "You would not know which change affected the result.",
-        "Higher speed can worsen instability and does not test the cradle fairly.",
-        "Correct. Isolate one design change and compare repeated trials."
+        "Then you cannot tell which change helped.",
+        "Speeding up may make the parcel fall sooner.",
+        "Yes. Compare the two holders using the same test."
       ]
     },
     "practice": {
       "type": "select",
-      "q": "Select the TWO proposals that respect the course constraints.",
+      "q": "Choose TWO safe ideas for holding the parcel.",
       "items": [
-        "A low cargo cradle with wheel and sensor clearance",
-        "Cover the sensor face to secure the parcel",
-        "A removable attachment with controls accessible",
-        "Add a tall metal weight above the chassis"
+        "A low, light holder that leaves room for wheels and sensor",
+        "Tape the parcel over the sensor",
+        "A holder you can remove, with Stop controls easy to reach",
+        "Put a heavy metal weight high above the wheels"
       ],
       "correct": [
         0,
         2
       ],
-      "why": "A light removable cradle and accessible controls fit the constraints. The teacher must still inspect the real attachment."
+      "why": "Keep the holder light and low. Leave the wheels, sensor and Stop controls clear. Ask the teacher to check it."
     },
     "exit": {
-      "q": "Why keep the same parcel when comparing two cradles?",
+      "q": "Why use the same parcel to test two holders?",
       "options": [
-        "To isolate the cradle design’s effect",
-        "Because engineers never change requirements",
-        "Because the parcel does not affect movement"
+        "So the holder is the only thing you change",
+        "Because you can never change a project goal",
+        "Because parcel weight never affects movement"
       ],
       "correct": 0,
       "feedback": [
-        "Correct. A different load could explain a different result.",
-        "Requirements can change, but this comparison needs controlled conditions.",
-        "Payload can change balance and movement."
+        "Yes. A different parcel might change the result too.",
+        "Goals can change. This test compares two holders.",
+        "The parcel can change the robot’s balance and movement."
       ]
     }
   },
   {
     "explore": [
       [
-        "Classification",
-        "A sensor reports a color from reflected light."
+        "Reading a color",
+        "Light bounces off the paper and reaches the sensor. The sensor uses that light to name a color."
       ],
       [
-        "Controlled conditions",
-        "Keep lighting, sample angle and sensor height steady."
+        "Keep things the same",
+        "Keep the paper flat. Use the same light and sensor height while you compare readings."
       ],
       [
-        "Uncertainty",
-        "Unknown or changing readings need investigation before movement."
+        "When a reading is wrong",
+        "Keep the wheels still. Write down the wrong or unknown reading. Change one thing and try again."
       ]
     ],
     "prediction": {
-      "q": "Your red marker is read correctly twice out of three times. What next?",
+      "q": "The sensor reads red correctly two times out of three. What next?",
       "options": [
         "Drive faster.",
-        "Investigate while stationary, then retest.",
-        "Ignore the failed reading."
+        "Keep the wheels still, check the setup and test again.",
+        "Leave the wrong reading out of your notes."
       ],
       "correct": 1,
       "feedback": [
-        "Speed cannot repair unreliable stationary recognition.",
-        "Correct. Change one condition and retain every result.",
-        "That would hide evidence you need."
+        "Driving faster will not fix a wrong color reading.",
+        "Yes. Try changing one thing, such as the sensor height.",
+        "Keep all the readings. Mistakes can help you find a problem."
       ]
     },
     "practice": {
       "type": "number",
-      "q": "Nine sample presentations produce six correct color readings. How many were misclassified or unknown?",
+      "q": "You test a color nine times. Six readings are correct. How many are wrong or unknown?",
       "value": 3,
       "unit": "readings",
-      "hint": "Subtract correct readings from total readings.",
-      "why": "9 − 6 = 3. Keep these cases in the record and investigate them."
+      "hint": "Take 6 away from 9.",
+      "why": "9 − 6 = 3. Keep those three readings in your notes too."
     },
     "exit": {
-      "q": "Which comparison isolates lighting?",
+      "q": "How can you test whether the light changes the reading?",
       "options": [
-        "Change light, height and sample.",
-        "Keep everything fixed.",
-        "Keep height and sample fixed; change lighting."
+        "Change the light, paper and sensor height.",
+        "Change nothing.",
+        "Change the light. Keep the paper and sensor height the same."
       ],
       "correct": 2,
       "feedback": [
-        "You could not separate the effects.",
-        "That checks repetition but does not compare lighting.",
-        "Correct. Change one factor."
+        "You would not know which change affected the reading.",
+        "This checks the same setup again, but does not compare light.",
+        "Yes. Change just the light."
       ]
     }
   },
   {
     "explore": [
       [
-        "Sequence",
-        "Commands run in order. A turn changes which direction the next forward command uses."
+        "Sequence: steps in order",
+        "The order matters. A turn changes the direction of the next forward move."
       ],
       [
-        "Grid model",
-        "A simulator turn is exactly 90 degrees. A real timed spin is not a guaranteed angle."
+        "The screen robot",
+        "The screen robot moves one square at a time. Each turn is a quarter-turn. A real robot may turn too much or too little."
       ],
       [
-        "Open-loop motion",
-        "Timed motor code does not measure the final position, so repeated calibration trials matter."
+        "Calibrate: test and adjust",
+        "Test a short drive or turn on the floor. Change one time setting and try again. This is called calibrating."
       ]
     ],
     "prediction": {
-      "q": "A rover faces north. It turns right, then moves forward. Which direction does it travel in the grid?",
+      "q": "The screen robot faces north (up). It turns right, then moves forward. Which way does it go?",
       "options": [
-        "East",
-        "West",
-        "North"
+        "East (right)",
+        "West (left)",
+        "North (up)"
       ],
       "correct": 0,
       "feedback": [
-        "Correct. A right quarter-turn changes north to east.",
-        "West would follow a left turn from north.",
-        "The turn changes the heading before the forward move."
+        "Yes. Turning right from north points east.",
+        "A left turn from north would point west.",
+        "The turn changes the direction before the move."
       ]
     },
     "practice": {
       "type": "order",
-      "q": "Plan this route: travel two cells north, then three east, and stop. The rover starts facing north.",
+      "q": "Start facing north (up). Go two squares north, then three east (right), and stop. Put the steps in order.",
       "items": [
         "Stop",
-        "Forward three cells",
+        "Go forward three squares",
         "Turn right",
-        "Forward two cells"
+        "Go forward two squares"
       ],
       "correct": [
         3,
@@ -265,107 +265,107 @@ const LESSON_SLIDES = [
         1,
         0
       ],
-      "why": "Move north first, turn to face east, move three cells, then stop. Calibrate each corresponding physical segment separately."
+      "why": "Go north, turn right, go east, then stop. Test the real robot’s drive times separately."
     },
     "exit": {
-      "q": "A 400 ms spin worked once. What can you conclude?",
+      "q": "Your real robot makes the right turn once. What do you know?",
       "options": [
-        "It will always turn exactly 90 degrees.",
-        "It produced that observed turn in that trial.",
-        "The grid has calibrated the physical robot."
+        "It will make the exact same turn every time.",
+        "It made the right turn in that one test.",
+        "The screen robot has checked the real wheels."
       ],
       "correct": 1,
       "feedback": [
-        "One trial does not establish exact or repeatable turning.",
-        "Correct. Repeat on the same floor and record the angle or route error.",
-        "The grid models logic and does not calibrate motors."
+        "One test is not enough to know that.",
+        "Yes. Try again and write down all the results.",
+        "You must test real wheels on the real floor."
       ]
     }
   },
   {
     "explore": [
       [
-        "Delivery cue",
-        "White permits one brief movement; red ends the trial."
+        "White: move a little",
+        "When the sensor reads white, move slowly for 0.1 seconds, then stop and check the color again."
       ],
       [
-        "Unrecognized reading",
-        "Unknown, other colors or lost connection select stop and check."
+        "Red or unknown: end the test",
+        "Red means delivery. Any other reading means stop and check. Neither should let the robot keep moving."
       ],
       [
-        "Latched stop",
-        "Once stopped, stay stopped until the operator begins a new trial."
+        "Stay stopped",
+        "After red or an unknown reading, stay stopped. A person must start a new test. Stop after no more than 20 checks even if every reading is white."
       ]
     ],
     "prediction": {
-      "q": "The sensor reports red during the approach. What action follows?",
+      "q": "The sensor reads red as the robot drives toward the finish. What next?",
       "options": [
-        "Drive faster",
-        "Continue until contact",
-        "Stop and end the trial"
+        "Drive faster.",
+        "Keep going until it hits something.",
+        "Stop and end this test."
       ],
       "correct": 2,
       "feedback": [
-        "Red marks the delivery stop.",
-        "Contact is not the trigger.",
-        "Correct. Finish the trial and remain stopped."
+        "Red means stop.",
+        "The floor color tells it to stop. It should not hit anything.",
+        "Yes. Keep it stopped until you start a new test."
       ]
     },
     "practice": {
       "type": "color",
-      "q": "Try white, red and unknown readings. Predict the action before testing.",
-      "why": "Only a recognized white approach surface permits a brief movement. Red or uncertain readings end the trial."
+      "q": "Choose white, red and unknown, one at a time. Guess what should happen, then test each reading.",
+      "why": "Only white allows a short move. Red or unknown ends the test."
     },
     "exit": {
-      "q": "After stopping on red, the sensor sees white. What should the same trial do?",
+      "q": "The robot has stopped on red. It then sees white. What should happen in this same test?",
       "options": [
-        "Remain stopped",
-        "Restart automatically",
-        "Ignore operator stop"
+        "It stays stopped.",
+        "It starts again on its own.",
+        "The Stop control stops working."
       ],
       "correct": 0,
       "feedback": [
-        "Correct. A new operator start is required.",
-        "That breaks the latched stop.",
-        "The stop control must remain effective."
+        "Yes. A person must start a new test.",
+        "Keep it stopped after red, even if the color changes.",
+        "The Stop control must always be available."
       ]
     }
   },
   {
     "explore": [
       [
-        "Acceptance criteria",
-        "A pass requires the parcel to stay on, the rover to finish in the bay, and no contact."
+        "Three rules for success",
+        "The parcel stays on. The robot stops inside the delivery space. It hits nothing. All three must happen for the run to pass."
       ],
       [
-        "Integration",
-        "Test movement, cargo and sensing separately before blaming the combined mission."
+        "Put the parts together",
+        "Try the holder, drive and color rule on their own first. Then test them together."
       ],
       [
-        "Evidence",
-        "Keep the same starting conditions within a trial set and record failed runs too."
+        "Keep test notes",
+        "Use the same starting setup for each group of tests. Write down what happens, including runs that do not pass. These notes are your evidence."
       ]
     ],
     "prediction": {
-      "q": "The rover reaches the bay without contact, but drops its parcel. Does that trial pass?",
+      "q": "The robot stops in the space and hits nothing, but drops its parcel. Does the run pass?",
       "options": [
-        "Yes, reaching the bay is enough.",
-        "No, all three criteria must pass.",
-        "Only if it looked impressive."
+        "Yes. It reached the space.",
+        "No. All three rules must be met.",
+        "Only if the robot looks good."
       ],
       "correct": 1,
       "feedback": [
-        "Cargo delivery is also part of the requirement.",
-        "Correct. A full pass requires every stated criterion.",
-        "Appearance does not replace acceptance criteria."
+        "The parcel must stay on too.",
+        "Yes. All three things must happen.",
+        "Judge what happened using the three rules."
       ]
     },
     "practice": {
       "type": "number",
-      "q": "Count the full passes in the example trial log.",
+      "q": "How many test runs below meet all three rules?",
       "value": 1,
-      "unit": "full pass(es)",
-      "hint": "A trial passes only when all three columns say Yes.",
+      "unit": "passing run(s)",
+      "hint": "Look for a row with Yes in all three boxes.",
       "rows": [
         [
           "1",
@@ -386,60 +386,60 @@ const LESSON_SLIDES = [
           "Yes"
         ]
       ],
-      "why": "Only trial 1 meets all three criteria. One full pass out of three does not meet the target of at least two."
+      "why": "Only run 1 has three Yes answers. The goal is at least two passing runs out of three."
     },
     "exit": {
-      "q": "A revision improves from 1 of 3 passes to 2 of 3. Which claim is supported?",
+      "q": "Your first holder passed 1 of 3 runs. Your new holder passed 2 of 3. What can you say?",
       "options": [
-        "The robot always works now.",
-        "The revision cannot ever fail.",
-        "It performed better in these small trial sets."
+        "It will always work now.",
+        "It can never fail again.",
+        "It worked better in these tests."
       ],
       "correct": 2,
       "feedback": [
-        "Three revised trials do not establish that it always works.",
-        "The revised set already contains one failed trial.",
-        "Correct. Report the improvement and the limited amount of evidence."
+        "There was still one run that did not pass.",
+        "More tests may show more problems.",
+        "Yes. Say how many tests you did and what happened."
       ]
     }
   },
   {
     "explore": [
       [
-        "Reproducibility",
-        "Record the program version, floor layout, parcel, start, stop and reset steps."
+        "Choose one attachment",
+        "An attachment is a part you add to the same robot base. Choose one of five jobs. Follow its build steps and use its own test rules."
       ],
       [
-        "Honest demonstration",
-        "If a showcase run fails, stop and describe the result. Do not rewrite the trial log."
+        "Test your new job",
+        "Write down three runs. Change one thing and compare. Save the code and directions another team can follow."
       ],
       [
-        "Individual understanding",
-        "Each learner should explain a design choice and the evidence behind it, even when the build is shared."
+        "Everyone explains",
+        "Each person shares one choice they made and a test result that helped them decide."
       ]
     ],
     "prediction": {
-      "q": "The showcase run fails after earlier successful trials. What is the strongest response?",
+      "q": "Your robot does not finish during your presentation. What should you do?",
       "options": [
-        "Stop, describe the failure, and propose a specific next test.",
-        "Hide the run and say every test passed.",
-        "Blame the audience without evidence."
+        "Stop, explain what happened and name one next test.",
+        "Say every test passed.",
+        "Blame the audience without checking."
       ],
       "correct": 0,
       "feedback": [
-        "Correct. Honest evidence and a testable next step are part of an engineering handover.",
-        "That misrepresents the evidence.",
-        "An explanation needs observations and a way to test it."
+        "Yes. A clear explanation helps people understand your work.",
+        "Tell what really happened.",
+        "Use what you saw to choose something you can test."
       ]
     },
     "practice": {
       "type": "order",
-      "q": "Arrange a clear two-minute showcase.",
+      "q": "Put these parts of a two-minute presentation in order.",
       "items": [
-        "Report a limitation and next test",
-        "Explain the need and success criteria",
-        "Compare before-and-after trial evidence",
-        "Explain the input, decision and output"
+        "Say what needs more work and what you would test next",
+        "Explain the robot’s job and the three rules for success",
+        "Show test results before and after your change",
+        "Explain the steps in your robot’s program"
       ],
       "correct": [
         1,
@@ -447,20 +447,20 @@ const LESSON_SLIDES = [
         2,
         0
       ],
-      "why": "Give the audience the purpose first, then explain the mechanism, show evidence, and finish with a limitation and next test."
+      "why": "Start with the job. Explain how it works. Show your results. Finish with what you would try next."
     },
     "exit": {
-      "q": "Which statement is appropriate before classroom and hardware testing?",
+      "q": "You have only tried the screen robot. Which statement is true?",
       "options": [
-        "This course is proven in every classroom.",
-        "This is a teaching draft with physical testing still required.",
-        "The simulator proves the real robot is safe."
+        "My real robot is ready for every classroom.",
+        "I still need to build and test the real robot.",
+        "The screen test proves the real robot can stop safely."
       ],
       "correct": 1,
       "feedback": [
-        "Classroom effectiveness has not yet been established.",
-        "Correct. State the validation boundary clearly.",
-        "A logic simulator does not establish physical safety."
+        "A screen test cannot show that.",
+        "Yes. Test the real build with your teacher.",
+        "Real wheels and sensors need their own tests."
       ]
     }
   }
