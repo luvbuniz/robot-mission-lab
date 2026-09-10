@@ -4,7 +4,7 @@
 
 An independent middle-school robotics course by **Amy Sullivan**. Students build a wheeled robot, learn to control it, test their ideas and choose a new job for the same base.
 
-**[Open the interactive course](https://robotics-mission-lab-amy.luvbuniz.chatgpt.site)** · [Print student packets](https://robotics-mission-lab-amy.luvbuniz.chatgpt.site/workbooks/) · [Teacher guide](dist/teacher-guide.pdf) · [Student reference workbook](dist/student-workbook.pdf) · [Classroom pack](dist/classroom-materials.pdf)
+**[Open the interactive course](https://robotics-mission-lab-amy.luvbuniz.chatgpt.site)** · [Print student packets](https://robotics-mission-lab-amy.luvbuniz.chatgpt.site/workbooks/) · [Teacher guide](https://robotics-mission-lab-amy.luvbuniz.chatgpt.site/teacher-guide.pdf) · [Student reference workbook](dist/student-workbook.pdf) · [Classroom pack](dist/classroom-materials.pdf)
 
 ![A yellow and blue brick robot on a classroom worktable](dist/rover.png)
 
@@ -63,7 +63,25 @@ This is a portfolio teaching draft. The worksheet attachments and coding recipes
 
 The simulator checks the next square for a wall. The physical course uses a floor-color sensor. The screen activity does not emulate the kit or prove that a real robot will work. Student notes stay in the open page and clear on refresh unless downloaded; there is no student account or server storage.
 
-Automated checks cover simulator solutions, collisions, movement limits, stop behavior, activity grading and color decisions. PDF pages and local download links have been checked. Physical-kit trials and classroom testing have not been completed.
+### Quality review — September 10, 2026
+
+The latest teaching review corrected the following issues:
+
+- **Time to test colors:** modules 1 and 4 now use 60 stationary checks with a 0.5-second pause, allowing about 30 seconds. Students can restart for more time. Workbooks, coding guides and classroom materials use the same instructions; driving limits remain in place.
+- **Teacher guide:** 27 sequentially numbered pages, a contents page and bookmarks, one simulator explanation, current printing directions and separate source credits. Interview-coaching notes are outside the teaching materials.
+- **Learning and feedback:** course goals linked to activities and evidence, before/after discussion prompts, all eight slide answer keys, learner supports and reflection sentence frames. The rubric is optional; teachers follow their school's grading policy. Simulator stars are not grades.
+- **Consistent materials:** one current workbook system, less repeated coding boilerplate, consistent naming, a favicon, accessible slide-tab labels and a revised narrow-screen tab layout. The original Rise course is linked separately near the introduction.
+
+**Verification completed:** all three automated checks passed, covering simulator behavior, game rewards and slide activities. Sixteen revised PDF pages were visually inspected; all 27 teacher page numbers, slide quiz answers, 34 duplex packet files and downloadable archives were checked. The corrected public PDFs were verified against the local files. The narrow-screen change was checked in source; this review did not include a fresh interactive browser test.
+
+See the [detailed teaching review](source/teaching-review.md) for scope and limitations.
+
+### Remaining evaluation and planned additions
+
+- Test the builds and programs on the actual kit, then pilot the course with students and a teacher.
+- Create a standards connection map using current official standards, distinguishing full coverage from partial practice. Standards alignment is not yet claimed.
+- Add teacher onboarding and a design case study with a storyboard and evaluation plan.
+- Develop and trial a fuller pre/post assessment beyond the current discussion prompts and lesson checks.
 
 ## Run locally
 
