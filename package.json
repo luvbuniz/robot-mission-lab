@@ -1,0 +1,12 @@
+{
+  "name": "robot-mission-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interactive middle-school robotics course by Amy Sullivan",
+  "scripts": {
+    "test": "node tests/rover.test.cjs && node tests/slides.test.cjs"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

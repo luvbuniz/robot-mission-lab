@@ -1,0 +1,23 @@
+Mission 1: Sense, decide, respond
+A robot takes inputs, follows instructions, and produces an action. Today you will build its operator interface. Predict the display before you press a button. A good engineer can explain why the robot responded.
+
+Mission 2: Motor checkout
+Your first drive should be short and controlled. Start with a low speed, keep a clear lane, and check that the stop works. Measure the distance instead of assuming that the speed number tells you how far the rover will go.
+
+Mission 3: Design a cargo cradle
+Today your rover becomes a delivery vehicle. Build a light cargo cradle and leave its wheels, sensors, and power switch clear. Test the same paper parcel before and after one design change. Let your evidence choose the better design.
+
+Mission 4: Give the rover reliable senses
+Sensors provide evidence, but the evidence can be imperfect. Compare the rover’s distance reading with a ruler. Try three positions and repeat each measurement. A zero reading means we should investigate, not assume that the path is safe.
+
+Mission 5: Code a delivery route
+A route is a sequence of choices. Plan the turns before you drive. In the simulator, a turn is exact. On the floor, your rover needs calibration. Measure where it stops, change one timing value, and test again.
+
+Mission 6: Stop before an obstacle
+Your rover will now respond to the world. A distance reading selects an action: move cautiously or stop. Test the rule before you run it. Record the real stopping gap and keep a margin for imperfect readings and motor response.
+
+Mission 7: Plan the delivery mission
+Put your tested parts together. Define what a successful delivery means before the run. Keep the same starting conditions, record every attempt, and improve one thing at a time. A reliable delivery matters more than a fast one.
+
+Mission 8: Showcase with evidence
+Your final job is to explain the evidence. Show what your robot can do, how you tested it, and what still needs work. Give another team clear operating instructions. Engineers earn trust by making their results understandable and reproducible.
