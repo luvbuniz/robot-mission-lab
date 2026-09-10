@@ -1,6 +1,6 @@
 const COURSE = {
   "title": "Robot Mission Lab",
-  "subtitle": "Build. Code. Deliver.",
+  "subtitle": "Build it. Code it. Make it yours.",
   "grade": "Grades 6–8",
   "schedule": "8 lessons | 16 classes of 45 minutes",
   "intro": "Build a rover: a small robot that moves on wheels. Help it carry a paper parcel and stop at a red line. Try it, write down what happens, and make it better.",
@@ -61,7 +61,7 @@ const COURSE = {
       "fix": "Check that you connected the right robot. Make sure the sensor can see the paper. If a wheel moves, stop and ask the teacher to check the code.",
       "extend": "Make messages that use words or symbols, so students do not have to tell screen colors apart.",
       "narration": "Show your robot a color. What message will appear? Make a prediction, then try it. Keep the wheels still. Explain how your rule picked the message.",
-      "worksheet": "worksheets/module-1.pdf"
+      "worksheet": "workbooks/module-1.pdf"
     },
     {
       "id": 2,
@@ -105,7 +105,7 @@ const COURSE = {
       "fix": "Stop. Check the charge, connection and wheel space. Test the wheel direction with the wheels raised before trying again.",
       "extend": "Try a second low speed. Do three runs at each speed. Compare the distances.",
       "narration": "Make a short drive, then stop. Measure how far your robot moves. Try three runs with the same settings. Do the distances match? Write down what you notice.",
-      "worksheet": "worksheets/module-2.pdf"
+      "worksheet": "workbooks/module-2.pdf"
     },
     {
       "id": 3,
@@ -149,7 +149,7 @@ const COURSE = {
       "fix": "Turn the power off. Check for rubbing, loose tape or a top-heavy load. Change one part, then test again.",
       "extend": "Give your drawing to another team. Can they make the same holder without extra help?",
       "narration": "Build a holder for your paper parcel. Leave room for the wheels and sensor. Try it three times. Change one part of the holder, then test again.",
-      "worksheet": "worksheets/module-3.pdf"
+      "worksheet": "workbooks/module-3.pdf"
     },
     {
       "id": 4,
@@ -193,7 +193,7 @@ const COURSE = {
       "fix": "Hold the paper flat. Keep the sensor steady. Reduce glare, or try another sheet of paper. Change one thing at a time.",
       "extend": "Count how many readings were right. Would you trust the setup after only three tries? Explain why.",
       "narration": "Can your robot tell red from white? Test the colors with the wheels still. Write every reading. Change one thing, such as the sensor height, and try again.",
-      "worksheet": "worksheets/module-4.pdf"
+      "worksheet": "workbooks/module-4.pdf"
     },
     {
       "id": 5,
@@ -237,7 +237,7 @@ const COURSE = {
       "fix": "Test the straight parts and turn on their own. Check the starting direction before changing the code.",
       "extend": "Compare two routes to the same space. Which takes fewer steps? Which works more often?",
       "narration": "Plan your route with arrows. Drive, turn, then drive again. Test each part on the floor. Change one time setting and try again. Did your robot get closer?",
-      "worksheet": "worksheets/module-5.pdf"
+      "worksheet": "workbooks/module-5.pdf"
     },
     {
       "id": 6,
@@ -281,7 +281,7 @@ const COURSE = {
       "fix": "Stop driving. Check the colors while still, then check the strip width and code order. Ask the teacher before another floor run.",
       "extend": "Show a message explaining the stop: RED LINE, CHECK COLOR or TIME UP.",
       "narration": "White means move a little. Red means stop. If the color is unknown, stop and check. Try your rule slowly. Keep the robot stopped until you start a new test.",
-      "worksheet": "worksheets/module-6.pdf"
+      "worksheet": "workbooks/module-6.pdf"
     },
     {
       "id": 7,
@@ -325,7 +325,7 @@ const COURSE = {
       "fix": "Check the holder, movement and color reading one at a time. Then try them together again.",
       "extend": "Add a new delivery rule. Explain what you would need to change and how you would test it.",
       "narration": "Time for a delivery! Keep the parcel on, stop in the right place, and hit nothing. Try three runs. Write what happened each time, then choose one improvement.",
-      "worksheet": "worksheets/module-7.pdf"
+      "worksheet": "workbooks/module-7.pdf"
     },
     {
       "id": 8,
@@ -369,7 +369,7 @@ const COURSE = {
       "fix": "Use your saved code and setup drawing to check what changed. If needed, show one part that works and explain what still needs fixing.",
       "extend": "Plan a different build choice for a later lesson. Explain which parts and tests would need to change.",
       "narration": "Show your robot and tell its story. What did you change? What did your tests show? Explain one thing that works well and one thing you still want to improve.",
-      "worksheet": "worksheets/module-8.pdf"
+      "worksheet": "workbooks/module-8.pdf"
     }
   ],
   "rubric": [

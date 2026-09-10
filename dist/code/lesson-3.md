@@ -1,9 +1,5 @@
 # Lesson 3: Build a parcel holder
 
-These are written coding steps for LEGO Education set #45522. Coding Canvas is LEGO’s coding app. A coding block is a piece on the screen that gives an instruction. These pages are not files the app can run by itself.
-
-Before class, the teacher must use these steps to make a program with the current blocks, save it and test it on the real kit. Block names may differ from the words used here.
-
 ## Words to know
 
 - Cargo: The thing your robot carries.
@@ -26,8 +22,6 @@ Before class, the teacher must use these steps to make a program with the curren
 
 Connect the correct team’s robot. Check the screen Stop control and show how to turn the power off. Raise the wheels for the first check. Keep someone ready to stop the robot. Keep the lane clear and leave extra space beyond the finish.
 Start slowly. Use a short time limit and check that the program stops by itself. Stop at once if it moves the wrong way.
-
-A screen test cannot check the real wheels or sensor. These steps still need testing on the actual kit.
 
 ## LEGO help
 

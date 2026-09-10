@@ -4,7 +4,7 @@
 
 An independent middle-school robotics course by **Amy Sullivan**. Students build a wheeled robot, learn to control it, test their ideas and choose a new job for the same base.
 
-**[Open the interactive course](https://robotics-mission-lab-amy.luvbuniz.chatgpt.site)** · [Print student packets](https://robotics-mission-lab-amy.luvbuniz.chatgpt.site/workbooks/) · [Teacher guide](dist/teacher-guide.pdf) · [Build worksheets](dist/worksheets/all-modules.pdf) · [Classroom pack](dist/classroom-materials.pdf)
+**[Open the interactive course](https://robotics-mission-lab-amy.luvbuniz.chatgpt.site)** · [Print student packets](https://robotics-mission-lab-amy.luvbuniz.chatgpt.site/workbooks/) · [Teacher guide](dist/teacher-guide.pdf) · [Student reference workbook](dist/student-workbook.pdf) · [Classroom pack](dist/classroom-materials.pdf)
 
 ![A yellow and blue brick robot on a classroom worktable](dist/rover.png)
 
@@ -16,11 +16,11 @@ The planned kit is **LEGO Education Computer Science & AI 6–8, #45522**. The c
 
 - **56 interactive slides:** seven per module, with predictions, practice, feedback, building checklists and reflection.
 - **Three playable simulator challenges:** move a brick robot through the grid, earn delivery stars, hear optional sound effects and learn from gentle collision feedback.
-- **Eight build worksheets:** materials, measured attachment plans, numbered steps, written program instructions and test tables.
+- **Eight module workbooks:** materials, measured attachment plans, numbered steps, written program instructions and test tables.
 - **Five final builds on one base:** parcel delivery, drawing robot, paper sweeper, ball pusher or a sled carrying a paper rescue figure.
 - **Plain-English support:** new words explained in lessons and a glossary in the student and teacher PDFs.
 - **Audio and transcripts:** nine short recordings using Amy’s own locally synthesized voice.
-- **Teacher materials:** lesson guidance, sample answers, a scoring guide and dated kit cost sheets at the back of both main PDFs.
+- **Teacher materials:** a contents page, learning goals, lesson guidance, slide answer keys, an optional scoring guide and dated kit cost sheets at the back of both main PDFs.
 - **Classroom materials pack:** role cards, arrow cards, color cards, measured paper templates, a first-class script and all eight coding guides.
 - **Visual room plan:** hover, focus or tap in the Teacher Desk; the same plan is included in the printable guide.
 
@@ -36,16 +36,16 @@ The planned kit is **LEGO Education Computer Science & AI 6–8, #45522**. The c
 
 | Module | What students do | Build worksheet |
 | --- | --- | --- |
-| 1. Wake up your rover | Connect a color reading to a screen message | [Color-test station](dist/worksheets/module-1.pdf) |
-| 2. Make a short drive | Measure movement and make the robot stop | [Measured driving lane](dist/worksheets/module-2.pdf) |
-| 3. Build a parcel holder | Compare two holders using the same parcel | [Two parcel holders](dist/worksheets/module-3.pdf) |
-| 4. Help your robot read colors | Compare readings and change one test condition | [Color-sensor board](dist/worksheets/module-4.pdf) |
-| 5. Plan the delivery route | Put short drives and a turn in order | [Arrow-card route](dist/worksheets/module-5.pdf) |
-| 6. Stop at the red line | Use a color reading to choose move or stop | [Red-line station](dist/worksheets/module-6.pdf) |
-| 7. Make the delivery | Test the complete robot against three rules | [Delivery course](dist/worksheets/module-7.pdf) |
-| 8. Choose a build and show it | Choose one new job, improve it and explain the results | [Five build choices](dist/worksheets/module-8.pdf) |
+| 1. Wake up your rover | Connect a color reading to a screen message | [Color-test station](dist/workbooks/module-1.pdf) |
+| 2. Make a short drive | Measure movement and make the robot stop | [Measured driving lane](dist/workbooks/module-2.pdf) |
+| 3. Build a parcel holder | Compare two holders using the same parcel | [Two parcel holders](dist/workbooks/module-3.pdf) |
+| 4. Help your robot read colors | Compare readings and change one test condition | [Color-sensor board](dist/workbooks/module-4.pdf) |
+| 5. Plan the delivery route | Put short drives and a turn in order | [Arrow-card route](dist/workbooks/module-5.pdf) |
+| 6. Stop at the red line | Use a color reading to choose move or stop | [Red-line station](dist/workbooks/module-6.pdf) |
+| 7. Make the delivery | Test the complete robot against three rules | [Delivery course](dist/workbooks/module-7.pdf) |
+| 8. Choose a build and show it | Choose one new job, improve it and explain the results | [Five build choices](dist/workbooks/module-8.pdf) |
 
-Modules 1–7 each have a two-page build worksheet. Module 8 has a two-page choice plan and two pages per build. Each team chooses **one** build; teachers can print only the pages that team needs. The full workbook retains the illustrated lesson pages, word help and reflection activities.
+Each module has one current student workbook with build instructions and test notes. Use the prepared class packets below for printing. Older worksheet URLs now open the current workbooks.
 
 ## Print one class at a time
 
@@ -83,7 +83,8 @@ Then open `http://localhost:8899/`. Run `npm test` with a current Node.js instal
 | `dist/course.js` | Curriculum, narration scripts and cost data |
 | `dist/slides-data.js` | Eight interactive lesson decks |
 | `dist/code/` | Eight written coding guides |
-| `dist/worksheets/` | Module build worksheets and combined packet |
+| `dist/workbooks/` | Current module workbooks and prepared class packets |
+| `dist/worksheets/` | Compatibility copies of the current workbooks |
 | `dist/audio/` | Finished narration and matching transcripts |
 | `source/` | Image prompts, original worksheet plans and earlier Blender prototypes |
 | `tests/` | Simulator and activity checks |

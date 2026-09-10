@@ -33,7 +33,7 @@ const BrickGame = (() => {
   }
   function setup() {
     const heading = document.querySelector('#lab-view h1');
-    heading.textContent = 'Brick Robot Mission Lab';
+    heading.textContent = 'Mission simulator';
     heading.nextElementSibling.textContent = 'Plan a route. Send your robot. Learn from every try.';
     const board = el('board');
     board.insertAdjacentHTML('beforebegin', `<div class="game-mission"><p id="game-story"></p><div class="game-hud"><span id="game-stars" aria-label="No stars yet">☆ ☆ ☆</span><span id="game-attempts">Try 0</span><span id="game-target"></span><button class="btn mini" id="game-sound" aria-pressed="false">Sound off</button></div></div>`);

@@ -1,9 +1,5 @@
 # Lesson 6: Stop at the red line
 
-These are written coding steps for LEGO Education set #45522. Coding Canvas is LEGO’s coding app. A coding block is a piece on the screen that gives an instruction. These pages are not files the app can run by itself.
-
-Before class, the teacher must use these steps to make a program with the current blocks, save it and test it on the real kit. Block names may differ from the words used here.
-
 ## Words to know
 
 - If-then rule: If this happens, do that.
@@ -27,8 +23,6 @@ Before class, the teacher must use these steps to make a program with the curren
 Connect the correct team’s robot. Check the screen Stop control and show how to turn the power off. Raise the wheels for the first check. Keep someone ready to stop the robot. Keep the lane clear and leave extra space beyond the finish.
 Start slowly. Use a short time limit and check that the program stops by itself. Stop at once if it moves the wrong way.
 Red and unknown readings must end the test. After either reading, the robot must stay stopped even if the sensor later sees white. If the connection is lost, stop using the power-off method you have tested.
-
-A screen test cannot check the real wheels or sensor. These steps still need testing on the actual kit.
 
 ## LEGO help
 

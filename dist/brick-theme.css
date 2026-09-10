@@ -96,3 +96,6 @@ audio[hidden]{display:none!important}
 footer .independent-credit{font-size:.875rem;line-height:1.6;max-width:950px;color:#dce5f0;margin-top:18px}footer span{float:none}
 nav button:focus-visible,.btn:focus-visible{outline:3px solid #182332;outline-offset:4px}
 @media(max-width:700px){.intro h1{font-size:clamp(2.5rem,11vw,3.2rem)}.mission p{font-size:1rem}.mission>span:last-child{font-size:.9rem}.footer-links{gap:16px}.player-top{flex-wrap:wrap}.slide-dots{max-width:100%}}
+
+/* Seven slide tabs fit narrow screens; full names remain in accessible labels. */
+@media(max-width:700px){.slide-dots{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px;padding:10px}.slide-dots button{min-width:0;min-height:44px;padding:8px 0}.slide-dots button span,.slide-dots button[aria-current] span{display:none}}

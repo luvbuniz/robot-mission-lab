@@ -23,7 +23,7 @@
       ],
       "code": [
         "Start with all movement stopped.",
-        "Repeat 10 times: read the color. White shows READY; red shows DELIVERY; anything else shows CHECK. Wait 0.2 seconds before the next check.",
+        "Repeat 60 times: read the color. White shows READY; red shows DELIVERY; anything else shows CHECK. Wait 0.5 seconds before the next check.",
         "Stop all movement and end. There are no driving steps in this program."
       ],
       "checks": [
@@ -134,7 +134,7 @@
       ],
       "code": [
         "Start with all movement stopped.",
-        "Repeat 10 times: read the color, show its name, and wait 0.2 seconds.",
+        "Repeat 60 times: read the color, show its name, and wait 0.5 seconds.",
         "Stop all movement and end."
       ],
       "checks": [
