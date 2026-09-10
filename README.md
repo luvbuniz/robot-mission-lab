@@ -1,33 +1,47 @@
 # Robot Mission Lab
 
-A middle-school robotics teaching draft by Amy Sullivan. Eight modules, sixteen 45-minute sessions, using micro:bit V2 and Kitronik :MOVE Motor 5683.
+An independent middle-school robotics teaching draft by **Amy Sullivan**. Build a delivery rover, investigate its behavior and defend design choices with evidence.
 
-The `dist` folder is a portable browser course. Open its `index.html`, or host that folder on a static web host. No Articulate or Vercel account is required to run it. Font downloads are optional; local fallback fonts work offline. External MakeCode and manufacturer links require internet. Simulator trial records remain in memory until exported; closing the page clears them.
+**Current kit:** LEGO Education Computer Science & AI 6–8, #45522 (2026). Eight missions, sixteen 45-minute sessions, four rotating team roles.
 
-Included: 56 interactive slides across eight illustrated lessons, three simulator missions, eight starter programs, student workbook, teacher guide and rubric, narration with transcripts, and a four-second conceptual Blender rover tour.
+## Explore
 
-Validation: JavaScript syntax; slide data completeness and grading for numbers, ordering, multiple selections and sensor boundaries; all three simulator solution paths; wall and boundary collision handling; stopped-state behavior; pure-state preservation; bounded command execution; TypeScript parsing and 40 mocked starter-program scenarios covering operator stop, invalid/close sensor readings, cancellation during measurement, and time limits. PDFs were rendered and visually inspected. Audio was checked for non-silent output, duration, and clipping. Browser interaction testing has not been performed. Optional WebMCP read-only tool uses feature detection; its browser contract has not been exercised.
+- 56 interactive slides with prediction, practice, feedback and reflection.
+- Three route puzzles with step-through traces and downloadable trial records.
+- LEGO-style mission artwork, narration and transcripts.
+- Eight Coding Canvas block recipes, student workbook and teacher guide.
+- Dated pilot and classroom cost sheets at the back of both PDFs.
 
-Before classroom use: compile each program in MakeCode with the Kitronik extension, test it on the actual hardware, calibrate movement and stopping on the classroom floor, and review narration for pronunciation and pace. No physical-robot or classroom validation is claimed. Source programs are `.ts`, not precompiled `.hex` files.
+Open `dist/index.html` locally or serve `dist` with a static web host. No Articulate or Vercel account is needed. Local server: `python -m http.server 8899 --directory dist`.
 
-Illustrations are conceptual teaching models, not exact Kitronik CAD or wiring diagrams. Follow the manufacturer's kit assembly instructions. Narration was synthesized locally with Amy's saved Voicebox voice profile; no raw voice sample is included.
+## Interview walkthrough
 
-The original Rise-export course is at https://luvbuniz.github.io/robotics/ and remains unchanged. This companion demonstrates custom web learning design. It does not by itself demonstrate current Storyline or Rise editing proficiency.
+1. Explain the learner and performance goal: a tested, documented delivery.
+2. Open Mission 6; test white, red and unknown color decisions.
+3. Show the build recipe and matching engineering log.
+4. Revise a failed simulator route and export the trial record.
+5. Show assessment, accessibility choices and the kit-cost appendix.
 
+## Teaching and validation
 
-## Interactive lessons
+This is a portfolio teaching draft. Recipes are human-readable block instructions, **not importable LEGO projects**. Before class, a teacher must map them to the current Coding Canvas blocks, save projects, prepare a checked wheeled base using LEGO’s build resources and run actual-kit trials. No physical-robot or classroom testing is claimed.
 
-Each lesson has seven slides: Mission, Explore, Predict, Try it, Build, Check, and Reflect. Students receive answer-specific feedback, can revisit any slide, use focus view, and download their lesson notes. Build checkboxes are self-reported; knowledge activities do not certify physical robot performance. Slide position and responses stay in the open page when switching lessons and clear on refresh.
+The separate grid puzzle has a virtual adjacent-cell obstacle check. It does not emulate LEGO hardware. The physical course uses a color marker, not a distance sensor. Knowledge checks do not certify a physical build. Notes and trials stay in the open page and clear on refresh unless downloaded. No student account or server storage is used.
 
-## Repository layout
+Automated checks cover simulator solutions, collisions, boundaries, latched stops, state preservation, activity grading and color decisions. PDFs are rendered and inspected. Browser interaction and physical-kit testing remain separate steps.
 
-- `dist/`: complete portable web app and learner downloads.
-- `dist/slides-data.js`: editable interactive activity content for all eight lessons.
-- `dist/course.js`: lesson plans, objectives, build steps, answers and narration scripts.
-- `dist/code/`: eight MakeCode TypeScript starter programs.
-- `source/blender/`: editable rover and animation models.
-- `tests/`: simulator and activity logic checks. Run `npm test` with Node.js 24 or later.
+## Credits
 
-## Run locally
+Course: Amy Sullivan. Audio uses Amy’s own locally synthesized voice; raw clone samples and profile files are not included. Artwork uses built-in image generation; prompts are in `source/visual-prompts.md`. These imaginative rover/arena scenes are not exact #45522 inventory or assembly instructions. Historical `source/blender/` models are earlier prototypes, not the LEGO build.
 
-Download or clone the repository and open `dist/index.html` in a browser. To use a local server instead, run `python -m http.server 8899 --directory dist` from the repository folder and open the printed local address. This repository does not automatically publish a website.
+LEGO and related marks belong to the LEGO Group. This independent course is not endorsed by LEGO. Official kit, build, software and pricing sources are linked in the Teacher Desk. The original Rise course remains at https://luvbuniz.github.io/robotics/ . This custom site alone does not establish current Rise or Storyline authoring proficiency.
+
+## Files
+
+- `dist/course.js`: curriculum, narration scripts and budgets.
+- `dist/slides-data.js`: eight interactive decks.
+- `dist/code/`: eight Markdown block recipes.
+- `dist/student-workbook.pdf`, `dist/teacher-guide.pdf`: printable materials.
+- `tests/`: run `npm test` with Node.js 24 or newer.
+
+Prices are dated planning figures; recheck before ordering. No purchase has been made.

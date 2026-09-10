@@ -10,5 +10,5 @@ for(const l of lessons){
  if(p.type==='select'){assert(logic.selection([...p.correct].reverse(),p.correct));assert(!logic.selection([0,1,2,3],p.correct));assert(!logic.selection([],p.correct));}
  if(p.type==='number'){assert(logic.number(String(p.value),p.value));assert(!logic.number('',p.value));assert(!logic.number('Infinity',p.value));assert(!logic.number('bad',p.value));assert(!logic.number(p.value+1,p.value));}
 }
-assert.equal(logic.sensor(30,20,false),'clear');assert.equal(logic.sensor(20,20,false),'close');assert.equal(logic.sensor(15,20,false),'close');assert.equal(logic.sensor(0,20,false),'invalid');assert.equal(logic.sensor(50,20,true),'invalid');
-console.log('All eight slide decks: content structure, correct/wrong grading, empty answers, ordering, selections and sensor thresholds passed.');
+for(const [input,expected] of [['white','move'],['red','delivery'],['unknown','check'],['blue','check'],[null,'check']])assert.equal(logic.color(input),expected);
+console.log('Eight slide decks, grading, invalid numeric answers, ordering, selections and color decisions passed.');
