@@ -4,7 +4,7 @@
   "private": true,
   "description": "Interactive middle-school robotics course by Amy Sullivan",
   "scripts": {
-    "test": "node tests/rover.test.cjs && node tests/slides.test.cjs"
+    "test": "node --test tests/*.test.cjs"
   },
   "engines": {
     "node": ">=24"

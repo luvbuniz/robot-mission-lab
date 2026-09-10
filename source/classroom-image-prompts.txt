@@ -1,0 +1,22 @@
+Built-in image_gen used.
+
+COVER PROMPT
+Use case: style-transfer
+Asset type: Robot Mission Lab course cover, landscape 3:2.
+Input images: Image 1 is the edit target. Replace its fantastical teal/orange sci-fi scene and robot with the realistic classroom concept specified below. Preserve only the general idea of a wheeled educational delivery robot.
+Primary request: restrained natural editorial photography of a plausible simple LEGO-inspired brick-built educational two-wheel delivery robot on an ordinary middle-school worktable.
+Subject: modest yellow and blue structural pieces, exactly two main black wheels and a small support caster, one small red accent; readable practical connectors and a restrained short cable. One lightweight folded paper parcel rests in a low tray.
+Scene/backdrop: ordinary lightly worn classroom worktable, plain white tape lane with a red stop strip; softly blurred ordinary classroom in the background, no people or faces.
+Style/medium: natural editorial photograph, believable molded plastic grain and tiny scuffs, daylight, restrained saturation, no glossy CGI look.
+Composition/framing: three-quarter view near table height, robot large and sharply readable, shallow depth of field but all major robot parts in focus, landscape 3:2.
+Constraints: illustrative educational concept, not an exact verified kit model. No logos, readable text, eyes or face. No sprawling arena, fantasy architecture, glowing lights, complex suspension, excessive wheels, neon, or sci-fi setting.
+
+SPRITE PROMPT
+Use case: stylized-concept
+Asset type: single game sprite for a classroom robot simulator, square PNG with true transparent alpha background.
+Primary request: single top-down north-facing LEGO-inspired wheeled delivery robot, centered and crisply recognizable at 48 pixels.
+Subject: compact rectangular yellow and blue brick-built body, a small red parcel in a low central tray, exactly two black wheels parallel on either side. Clearly defined front points straight toward the top edge. Restrained molded plastic studs and connector details, simple readable silhouette.
+Style/medium: crisp toy-like 3D game sprite in orthographic overhead view, no perspective tilt, controlled minimal detail.
+Composition/framing: one robot only, centered, occupying most of square canvas with modest transparent margin.
+Background: genuinely transparent alpha, not white, not a checkerboard painted into the image. Preserve actual transparent pixels around the silhouette.
+Constraints: no labels, logos, text, eyes, face, environment, floor, arrows, duplicate angles, sprite sheet, or cast shadow outside the tight silhouette.

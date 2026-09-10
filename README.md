@@ -4,9 +4,9 @@
 
 An independent middle-school robotics course by **Amy Sullivan**. Students build a wheeled robot, learn to control it, test their ideas and choose a new job for the same base.
 
-**[Open the interactive course](https://robotics-mission-lab-amy.luvbuniz.chatgpt.site)** · [Student workbook](dist/student-workbook.pdf) · [Teacher guide](dist/teacher-guide.pdf) · [Build worksheets](dist/worksheets/all-modules.pdf)
+**[Open the interactive course](https://robotics-mission-lab-amy.luvbuniz.chatgpt.site)** · [Student workbook](dist/student-workbook.pdf) · [Teacher guide](dist/teacher-guide.pdf) · [Build worksheets](dist/worksheets/all-modules.pdf) · [Classroom pack](dist/classroom-materials.pdf)
 
-![A brick-built robot on a colorful mission course](dist/rover.png)
+![A yellow and blue brick robot on a classroom worktable](dist/rover.png)
 
 **Grades 6–8 · Eight modules · Sixteen 45-minute classes · Teams of four**
 
@@ -15,12 +15,14 @@ The planned kit is **LEGO Education Computer Science & AI 6–8, #45522**. The c
 ## What to explore
 
 - **56 interactive slides:** seven per module, with predictions, practice, feedback, building checklists and reflection.
-- **Three simulator challenges:** arrange instructions, watch each step, revise a route and download test notes.
+- **Three playable simulator challenges:** move a brick robot through the grid, earn delivery stars, hear optional sound effects and learn from gentle collision feedback.
 - **Eight build worksheets:** materials, measured attachment plans, numbered steps, written program instructions and test tables.
 - **Five final builds on one base:** parcel delivery, drawing robot, paper sweeper, ball pusher or a sled carrying a paper rescue figure.
 - **Plain-English support:** new words explained in lessons and a glossary in the student and teacher PDFs.
 - **Audio and transcripts:** nine short recordings using Amy’s own locally synthesized voice.
 - **Teacher materials:** lesson guidance, sample answers, a scoring guide and dated kit cost sheets at the back of both main PDFs.
+- **Classroom materials pack:** role cards, arrow cards, color cards, measured paper templates, a first-class script and all eight coding guides.
+- **Visual room plan:** hover, focus or tap in the Teacher Desk; the same plan is included in the printable guide.
 
 ## A four-minute portfolio walkthrough
 
@@ -78,7 +80,7 @@ Then open `http://localhost:8899/`. Run `npm test` with a current Node.js instal
 
 ## Credits and sources
 
-Course design and writing: **Amy Sullivan**. Narration uses Amy’s “My Voice but chipper” voice profile; raw voice samples and clone-profile files are not included. Artwork was generated for this course; the prompts are retained in `source/`. Images show project ideas, not exact kit inventories or verified brick-by-brick instructions. The older Blender models are earlier prototypes.
+Course design and writing: **Amy Sullivan**. Narration uses Amy’s “My Voice but chipper” voice profile; raw voice samples and clone-profile files are not included. Artwork was generated for this course; the prompts are retained in `source/`. Images show project ideas, not exact kit inventories or verified brick-by-brick instructions. The realistic classroom cover is also an illustration, not a photograph of a verified kit build. The older Blender models are earlier prototypes.
 
 LEGO and related marks belong to the LEGO Group. **Robot Mission Lab is an independent project, not an official LEGO course and not endorsed by the LEGO Group.**
 
