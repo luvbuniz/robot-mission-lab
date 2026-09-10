@@ -4,7 +4,7 @@
 
 An independent middle-school robotics course by **Amy Sullivan**. Students build a wheeled robot, learn to control it, test their ideas and choose a new job for the same base.
 
-**[Open the interactive course](https://robotics-mission-lab-amy.luvbuniz.chatgpt.site)** · [Student workbook](dist/student-workbook.pdf) · [Teacher guide](dist/teacher-guide.pdf) · [Build worksheets](dist/worksheets/all-modules.pdf) · [Classroom pack](dist/classroom-materials.pdf)
+**[Open the interactive course](https://robotics-mission-lab-amy.luvbuniz.chatgpt.site)** · [Print student packets](https://robotics-mission-lab-amy.luvbuniz.chatgpt.site/workbooks/) · [Teacher guide](dist/teacher-guide.pdf) · [Build worksheets](dist/worksheets/all-modules.pdf) · [Classroom pack](dist/classroom-materials.pdf)
 
 ![A yellow and blue brick robot on a classroom worktable](dist/rover.png)
 
@@ -46,6 +46,16 @@ The planned kit is **LEGO Education Computer Science & AI 6–8, #45522**. The c
 | 8. Choose a build and show it | Choose one new job, improve it and explain the results | [Five build choices](dist/worksheets/module-8.pdf) |
 
 Modules 1–7 each have a two-page build worksheet. Module 8 has a two-page choice plan and two pages per build. Each team chooses **one** build; teachers can print only the pages that team needs. The full workbook retains the illustrated lesson pages, word help and reflection activities.
+
+## Print one class at a time
+
+Use the [student print center](https://robotics-mission-lab-amy.luvbuniz.chatgpt.site/workbooks/) or download `dist/student-workbooks.zip`.
+
+- Modules 1–7: class 1 is four pages (two sheets); class 2 is two pages (one sheet).
+- Module 8: choose one build. Each prepared class packet is four pages (two sheets), including shared planning or reflection pages.
+- Print US Letter, Actual size (100%), two-sided, flip on long edge.
+- Each class begins with Name, Date and Period. Main text is 13.5-point Arial, with labeled diagrams and space for handwritten results.
+- The combined reference PDF retains the glossary and dated cost sheet at the back.
 
 ## Teaching readiness
 

@@ -1,0 +1,25 @@
+{
+  "module_pages": [
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    24
+  ],
+  "class_pages": {
+    "1-7": [
+      4,
+      2
+    ],
+    "8-choice": [
+      4,
+      4
+    ]
+  },
+  "print": "US Letter, 100% / Actual size, two-sided, flip on long edge",
+  "font": "Arial",
+  "body_size": 13.5
+}
